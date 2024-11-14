@@ -22,8 +22,8 @@ for (i = 0; i < input.length; i++) {
     }
   }
 }
-console.log(resultArray);
 
-const resultString = toUpperCase(resultArray.join());
+const resultString = resultArray.join("");
 
-console.log(resultString);
+const result = resultString.toUpperCase();
+console.log(result);
